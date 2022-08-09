@@ -5,6 +5,10 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+
+/**
+ * @autor mohammad saeid tavana
+ */
 @FeignClient(name = "personservice" , url = "localhost:8120",path = "/person")
 public interface personService {
 

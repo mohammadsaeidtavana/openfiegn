@@ -2,6 +2,9 @@ package com.example.demo;
 
 import java.io.Serializable;
 
+/**
+ * @autor mohammad saeid tavana
+ */
 public class person  implements Serializable {
 
     public person() {
